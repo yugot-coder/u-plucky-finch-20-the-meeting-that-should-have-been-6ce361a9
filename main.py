@@ -45,11 +45,24 @@ def validate_entry(text):
             "entry is %d characters, over the %d-character gate"
             % (len(text), MAX_CHARS)
         )
+    encoding_problem = utf8_problem(text)
+    if encoding_problem is not None:
+        problems.append(encoding_problem)
+    return problems
+
+
+def utf8_problem(text):
+    """Return the UTF-8 validity problem for ``text``, or None.
+
+    A small named helper so the encoding check is a separate, documented
+    step of the gate instead of an inline try/except inside
+    :func:`validate_entry`.
+    """
     try:
         text.encode("utf-8")
     except UnicodeEncodeError as exc:
-        problems.append("entry is not valid UTF-8 text: %s" % exc)
-    return problems
+        return "entry is not valid UTF-8 text: %s" % exc
+    return None
 
 
 def write_entry(text, path):
