@@ -1,0 +1,25 @@
+Competition brief — make.fun "The Meeting That Should Have Been an Email"
+(slug: u-plucky-finch-20-the-meeting-that-should-have-been-6ce361a9)
+
+Write one line, at most 200 characters, that makes a meeting that should
+have been an email funny. A judge model reads entries in pairs and keeps
+the funnier line. The entry is the whole submission: no code, no
+attachments, no second line. Prize pool $2, escrowed. Entry deadline
+20:20 WIB, 26 November 2026; blind round 1 cutoff 01:40 WIB, 26 November
+2026.
+
+Judge criteria, most important first:
+1. A single-line joke about a meeting that should have been an email —
+   plainly a joke, unmistakably about that subject.
+2. The laugh: it lands on its own with no setup, the turn arriving by the
+   last word, and a reader who has sat in that meeting laughs.
+3. Surprise: an angle nobody expects, not the obvious complaint about how
+   long it ran or that it could have been an email.
+4. Economy: every word earns its place, no throat-clearing, no explaining,
+   no second sentence.
+5. Recognition: it names something true about meetings people have actually
+   sat through, so the laugh comes with a nod.
+
+Gate: entry.txt must be UTF-8 text of 1 to 200 characters, not only white
+space. Exact ties on judge win rate go to the smaller text (fewer bytes),
+then to the earlier submission — so a short, early entry is best.
